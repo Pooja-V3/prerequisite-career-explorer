@@ -71,7 +71,7 @@ course_career_explorer/
 ├── evaluation/
 │   └── evaluate.py              # Baseline vs. Proposed metrics + CSV export
 ├── tests/
-│   └── test_cases.py            # 5 required failure/edge-case tests
+│   └── test_cases.py            # Automated unit and failure/edge-case tests
 ├── scripts/
 │   └── generate_data.py         # Synthetic dataset generator (source of data/)
 ├── requirements.txt
@@ -141,8 +141,8 @@ engine is benchmarked against on the **Evaluation** page.
    Evaluation page compare Baseline vs. Proposed on: average quality,
    prerequisite conflicts, schedule conflicts, career misalignment, and
    recommendation success rate.
-8. **Testing / failure cases** — `tests/test_cases.py` implements and runs
-   all 5 required cases with expected vs. actual results (see below).
+8. Testing / failure cases — `tests/test_cases.py` contains automated
+   unit tests covering the 5 required cases plus invalid course input.
 9. **Dataset** — 38 synthetic courses, 6 career pathways, prerequisite
    graph, outcomes, schedules (including deliberate conflicts), and 6
    sample student profiles (`data/*.csv`).
@@ -155,40 +155,15 @@ engine is benchmarked against on the **Evaluation** page.
 
 ---
 
-## 5. Sample output — test cases
+## 5. Testing, validation and error handling
 
-Run with `python3 -m tests.test_cases`:
+The project uses `pytest` for automated unit testing. The test suite covers
+normal functionality, failure cases, edge cases, and invalid input handling.
 
-```
-[PASS] Test 1: Missing prerequisite (Spring Boot needs OOP)
-   Expected: Ineligible; OOP missing
-   Actual:   Ineligible; missing=['Object Oriented Programming']
+Run the complete test suite with:
 
-[PASS] Test 2: Schedule conflict (Java vs Computer Networks, both Mon 9-11)
-   Expected: 1 conflict detected between Java Programming and Computer Networks
-   Actual:   1 conflict(s): ['Schedule Conflict Detected: Java Programming (09:00-11:00)
-             and Computer Networks (09:00-11:00) both fall on Monday.']
-
-[PASS] Test 3: Course with low career relevance (UI/UX for Cybersecurity Analyst)
-   Expected: Relevance score below 45 (marginally/not relevant)
-   Actual:   Relevance score = 0; explanation: UI/UX Design Principles is not directly
-             relevant to the Cybersecurity Analyst pathway (relevance score: 0/100)...
-
-[PASS] Test 4a: Multiple missing prerequisites (Deep Learning chain)
-   Expected: Ineligible; C014 (Machine Learning) missing
-   Actual:   Ineligible; missing=['Machine Learning']
-
-[PASS] Test 4b: Chained prerequisite path suggestion
-   Expected: Suggested path includes Python, Statistics, Linear Algebra and Machine Learning
-   Actual:   Suggested path: ['Python Programming', 'Statistics and Probability',
-             'Linear Algebra', 'Machine Learning']
-
-[PASS] Test 5: Student with no completed courses (cold start)
-   Expected: Runs without error; prerequisite_readiness = 0.0 (0 of 2 satisfied)
-   Actual:   overall=73.0, prerequisite_readiness=0.0
-
-TEST SUMMARY: 5/5 test cases passed
-```
+```bash
+python -m pytest tests/ -v
 
 ## 6. Sample output — baseline vs. proposed evaluation
 

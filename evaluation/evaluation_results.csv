@@ -1,7 +1,7 @@
 student_id,name,career_goal,baseline_avg_quality,proposed_avg_quality,baseline_prereq_conflicts,proposed_prereq_conflicts,baseline_schedule_conflicts,proposed_schedule_conflicts,baseline_career_misaligned,proposed_career_misaligned,baseline_success_rate,proposed_success_rate,proposed_courses_actually_recommended
-S001,Aditi Sharma,Backend Developer,85.6,88.5,2,0,0,0,0,1,60.0,80.0,5
-S002,Rohan Verma,Data Scientist,81.9,83.0,2,0,0,0,0,2,60.0,50.0,4
-S003,Priya Nair,Cloud Engineer,86.5,84.7,0,0,0,0,0,2,100.0,60.0,5
-S004,Karan Mehta,Cybersecurity Analyst,73.6,81.6,3,0,1,0,0,1,0.0,50.0,2
-S005,Sneha Iyer,Full Stack Developer,86.4,85.5,0,0,0,0,0,1,100.0,80.0,5
-S006,Arjun Rao,Software Developer,89.6,93.8,1,0,0,0,0,0,80.0,100.0,5
+S001,Aditi Sharma,Backend Developer,65.8,63.7,2,0,0,0,0,1,60.0,80.0,5
+S002,Rohan Verma,Data Scientist,63.8,63.0,2,0,0,0,0,1,60.0,66.7,3
+S003,Priya Nair,Cloud Engineer,61.8,60.0,0,0,0,0,0,2,100.0,60.0,5
+S004,Karan Mehta,Cybersecurity Analyst,58.7,65.8,3,0,1,0,0,0,0.0,100.0,1
+S005,Sneha Iyer,Full Stack Developer,61.7,60.8,0,0,0,0,0,1,100.0,80.0,5
+S006,Arjun Rao,Software Developer,69.7,69.0,1,0,0,0,0,0,80.0,100.0,5
