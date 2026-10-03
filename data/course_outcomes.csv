@@ -1,0 +1,77 @@
+course_id,outcome
+C001,Write robust Java programs using OOP concepts
+C001,Use Java collections and exception handling effectively
+C002,"Apply encapsulation, inheritance and polymorphism in design"
+C002,Design class hierarchies for real-world problems
+C003,Select appropriate data structures for a problem
+C003,Analyze time/space complexity of algorithms
+C004,Design normalized relational schemas
+C004,Write efficient SQL queries and transactions
+C005,Explain the OSI and TCP/IP models
+C005,Configure basic routing and switching
+C006,Explain process scheduling and memory management
+C006,Reason about concurrency and synchronization
+C007,Write Python scripts using core data structures
+C007,Use Python libraries for automation
+C008,Apply probability distributions to real data
+C008,Perform hypothesis testing
+C009,Perform matrix operations relevant to ML/crypto
+C009,Compute eigenvalues/eigenvectors
+C010,Build static web pages with HTML/CSS
+C010,Add interactivity using JavaScript
+C011,Build REST backends using Spring Boot
+C011,Use Spring Data JPA for persistence
+C012,Build an end-to-end web application
+C012,"Integrate frontend, backend and database layers"
+C013,Build component-based UIs with React
+C013,Manage application state with hooks
+C014,Train and evaluate supervised ML models
+C014,Apply unsupervised learning techniques
+C015,Design and train neural networks
+C015,Apply CNNs/RNNs to real datasets
+C016,Create insightful charts and dashboards
+C016,Communicate data findings visually
+C017,Process large datasets with distributed frameworks
+C017,Design big-data pipelines
+C018,Explain IaaS/PaaS/SaaS cloud models
+C018,Compare major cloud providers
+C019,Design scalable architectures on AWS
+C019,"Configure core AWS services (EC2, S3, RDS)"
+C020,Build CI/CD pipelines
+C020,Apply infrastructure-as-code practices
+C021,Containerize applications with Docker
+C021,Orchestrate services with Kubernetes
+C022,Configure firewalls and VPNs
+C022,Detect and mitigate network intrusions
+C023,Perform structured penetration tests
+C023,Identify and report vulnerabilities
+C024,Apply symmetric and asymmetric encryption
+C024,Explain hashing and digital signatures
+C025,Apply a security risk assessment framework
+C025,Design an incident response plan
+C026,Build native Android applications
+C026,Manage Android app lifecycle and UI
+C027,Build native iOS applications with Swift
+C027,Design iOS UI using standard patterns
+C028,Decompose a monolith into microservices
+C028,Handle inter-service communication
+C029,"Design versioned, secure REST APIs"
+C029,Document APIs using OpenAPI/Swagger
+C030,Model data for NoSQL databases
+C030,Choose the right NoSQL store for a use case
+C031,Reason about consistency and consensus
+C031,Design fault-tolerant distributed systems
+C032,Write unit and integration tests
+C032,Apply test automation frameworks
+C033,Run Scrum ceremonies effectively
+C033,Plan and track iterative sprints
+C034,Build text-processing pipelines
+C034,Apply transformer models to language tasks
+C035,Build image classification/detection models
+C035,Apply CV techniques to real images
+C036,Explain blockchain consensus mechanisms
+C036,Write basic smart contracts
+C037,Create IT project plans and schedules
+C037,Manage stakeholders and IT project risk
+C038,Conduct user research and usability tests
+C038,Create wireframes and prototypes

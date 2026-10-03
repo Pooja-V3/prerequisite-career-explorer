@@ -1,0 +1,7 @@
+career_role,required_skills
+Backend Developer,Java;OOP;DBMS;SQL;Spring Boot;Microservices;REST API;NoSQL;OS Concepts;Distributed Systems
+Full Stack Developer,HTML/CSS/JS;DBMS;React;Full Stack Development;REST API;UI/UX Design
+Data Scientist,Python;Statistics;Linear Algebra;Machine Learning;Deep Learning;Data Visualization;Big Data;NLP;Computer Vision
+Cloud Engineer,Networking;OS Concepts;Cloud Computing;AWS;DevOps;Kubernetes;Distributed Systems
+Cybersecurity Analyst,Networking;OS Concepts;Network Security;Ethical Hacking;Cryptography;Risk Management
+Software Developer,OOP;DSA;Java;Python;Software Testing;Agile;Project Management;DBMS

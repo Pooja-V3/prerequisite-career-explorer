@@ -1,0 +1,7 @@
+student_id,name,career_goal,completed_courses,skills,preferred_job_role
+S001,Aditi Sharma,Backend Developer,C001;C002;C004,Java;OOP;SQL,Backend Developer
+S002,Rohan Verma,Data Scientist,C007;C008,Python;Statistics,Data Scientist
+S003,Priya Nair,Cloud Engineer,C005;C006;C018,Networking;OS Concepts;Cloud Computing,Cloud Engineer
+S004,Karan Mehta,Cybersecurity Analyst,C005;C006,Networking;OS Concepts,Cybersecurity Analyst
+S005,Sneha Iyer,Full Stack Developer,C010;C004;C002,HTML/CSS/JS;DBMS;OOP,Full Stack Developer
+S006,Arjun Rao,Software Developer,,,Software Developer

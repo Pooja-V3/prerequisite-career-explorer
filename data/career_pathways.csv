@@ -1,0 +1,67 @@
+career_role,course_id,relevance_score
+Backend Developer,C001,85
+Backend Developer,C002,85
+Backend Developer,C003,80
+Backend Developer,C004,90
+Backend Developer,C011,95
+Backend Developer,C028,90
+Backend Developer,C029,90
+Backend Developer,C030,75
+Backend Developer,C031,80
+Backend Developer,C032,65
+Backend Developer,C006,60
+Backend Developer,C005,55
+Backend Developer,C007,40
+Backend Developer,C013,30
+Backend Developer,C038,20
+Full Stack Developer,C010,90
+Full Stack Developer,C012,95
+Full Stack Developer,C013,90
+Full Stack Developer,C004,80
+Full Stack Developer,C029,80
+Full Stack Developer,C038,70
+Full Stack Developer,C002,60
+Full Stack Developer,C001,50
+Full Stack Developer,C011,55
+Full Stack Developer,C030,55
+Full Stack Developer,C032,50
+Data Scientist,C007,90
+Data Scientist,C008,90
+Data Scientist,C009,85
+Data Scientist,C014,95
+Data Scientist,C015,90
+Data Scientist,C016,85
+Data Scientist,C017,80
+Data Scientist,C034,80
+Data Scientist,C035,80
+Data Scientist,C004,55
+Data Scientist,C037,20
+Cloud Engineer,C005,85
+Cloud Engineer,C006,85
+Cloud Engineer,C018,95
+Cloud Engineer,C019,95
+Cloud Engineer,C020,90
+Cloud Engineer,C021,90
+Cloud Engineer,C031,80
+Cloud Engineer,C022,55
+Cloud Engineer,C004,45
+Cloud Engineer,C007,35
+Cybersecurity Analyst,C005,85
+Cybersecurity Analyst,C006,80
+Cybersecurity Analyst,C022,95
+Cybersecurity Analyst,C023,95
+Cybersecurity Analyst,C024,85
+Cybersecurity Analyst,C025,90
+Cybersecurity Analyst,C036,55
+Cybersecurity Analyst,C031,40
+Cybersecurity Analyst,C004,30
+Software Developer,C002,90
+Software Developer,C003,90
+Software Developer,C001,80
+Software Developer,C007,75
+Software Developer,C032,85
+Software Developer,C033,85
+Software Developer,C037,70
+Software Developer,C004,65
+Software Developer,C029,55
+Software Developer,C038,40

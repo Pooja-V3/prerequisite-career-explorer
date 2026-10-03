@@ -1,0 +1,39 @@
+course_id,course_name,description,credits,category,skills_gained
+C001,Java Programming,"Core Java syntax, OOP basics, collections and exception handling.",4,Foundational,Java
+C002,Object Oriented Programming,"Principles of OOP: encapsulation, inheritance, polymorphism, abstraction.",4,Foundational,OOP
+C003,Data Structures and Algorithms,"Arrays, linked lists, trees, graphs, sorting/searching, complexity analysis.",4,Foundational,DSA;Problem Solving
+C004,Database Management Systems,"Relational model, SQL, normalization, transactions and indexing.",4,Foundational,DBMS;SQL
+C005,Computer Networks,"OSI/TCP-IP model, routing, switching, protocols.",3,Foundational,Networking
+C006,Operating Systems,"Processes, threads, scheduling, memory management, concurrency.",3,Foundational,OS Concepts
+C007,Python Programming,"Python syntax, data structures, scripting and libraries.",3,Foundational,Python
+C008,Statistics and Probability,"Descriptive/inferential statistics, probability distributions, hypothesis testing.",3,Foundational,Statistics
+C009,Linear Algebra,"Vectors, matrices, eigenvalues - the math backbone of ML and cryptography.",3,Foundational,Linear Algebra
+C010,Web Development Fundamentals,"HTML, CSS, JavaScript basics and the DOM.",3,Foundational,HTML/CSS/JS
+C011,Spring Boot Development,"Building REST backends with Spring Boot, dependency injection, JPA.",4,Elective,Spring Boot;Java;REST API
+C012,Full Stack Web Development,"End-to-end web apps combining frontend, backend and databases.",4,Elective,Full Stack Development;DBMS;REST API
+C013,React.js Frontend Development,"Component-based UI development with React, hooks and state management.",3,Elective,React;HTML/CSS/JS
+C014,Machine Learning,"Supervised/unsupervised learning, model evaluation, scikit-learn.",4,Elective,Machine Learning;Python
+C015,Deep Learning,"Neural networks, CNNs, RNNs, training with TensorFlow/PyTorch.",4,Elective,Deep Learning;Machine Learning
+C016,Data Visualization,"Communicating data insights with Matplotlib, Seaborn and dashboards.",3,Elective,Data Visualization;Python
+C017,Big Data Analytics,Distributed data processing with Spark/Hadoop ecosystems.,4,Elective,Big Data;DBMS
+C018,Cloud Computing Fundamentals,"IaaS/PaaS/SaaS models, virtualization, core cloud concepts.",3,Elective,Cloud Computing
+C019,AWS Cloud Architecture,"Designing scalable systems on AWS: EC2, S3, RDS, IAM.",4,Elective,AWS;Cloud Computing
+C020,DevOps and CI/CD,"Automated pipelines, Jenkins/GitHub Actions, infrastructure as code.",3,Elective,DevOps;Cloud Computing
+C021,Kubernetes and Containerization,Docker containers and Kubernetes orchestration at scale.,3,Elective,Kubernetes;Docker;Cloud Computing
+C022,Network Security,"Firewalls, VPNs, intrusion detection, secure network design.",3,Elective,Network Security;Networking
+C023,Ethical Hacking,"Penetration testing methodology, vulnerability assessment tools.",4,Elective,Ethical Hacking;Network Security
+C024,Cryptography,"Symmetric/asymmetric encryption, hashing, digital signatures.",3,Elective,Cryptography;Linear Algebra
+C025,Cybersecurity Risk Management,"Risk assessment frameworks, compliance, incident response.",3,Elective,Risk Management;Network Security
+C026,Mobile App Development - Android,Building native Android apps with Kotlin/Java.,4,Elective,Android Development;Java;OOP
+C027,iOS App Development,Building native iOS apps with Swift.,4,Elective,iOS Development;OOP
+C028,Microservices Architecture,"Designing decoupled, independently deployable services.",4,Elective,Microservices;Spring Boot;DBMS
+C029,RESTful API Design,"Designing clean, versioned, secure REST APIs.",3,Elective,REST API;DBMS
+C030,NoSQL Databases,"Document, key-value and graph databases: MongoDB, Redis, Neo4j.",3,Elective,NoSQL;DBMS
+C031,Distributed Systems,"Consistency, consensus, fault tolerance in large-scale systems.",4,Elective,Distributed Systems;Networking;OS Concepts
+C032,Software Testing and QA,"Unit/integration testing, test automation, QA processes.",3,Elective,Software Testing;OOP
+C033,Agile Software Development,"Scrum, Kanban, sprint planning and iterative delivery.",2,Elective,Agile;Project Management
+C034,Natural Language Processing,"Text processing, embeddings, transformers for language tasks.",4,Elective,NLP;Machine Learning
+C035,Computer Vision,"Image processing, CNNs for detection/classification/segmentation.",4,Elective,Computer Vision;Machine Learning
+C036,Blockchain Fundamentals,"Distributed ledgers, consensus mechanisms, smart contracts.",3,Elective,Blockchain;Cryptography
+C037,IT Project Management,"Planning, scheduling, stakeholder management for IT projects.",2,Elective,Project Management
+C038,UI/UX Design Principles,"User research, wireframing, prototyping and usability testing.",2,Elective,UI/UX Design;HTML/CSS/JS
